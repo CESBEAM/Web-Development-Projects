@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  top:0;
+  width: 100%;
+  align-items: center;
+  background-color: #eee;
+
+}
+
+.logo img{
+    max-width: 70%;
+    display: block;
+    height: auto;
+    margin: 1em auto;
+}
+
+ li, a{
+    color: black;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    min-height: 200vh;
+}
+
+.hero-content{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.hero-content input{
+    margin-top: .5em;
+    width: 20em;
+}
+
+.btn{
+margin: 1em auto;
+display: block;   
+}
+
+.premium-content{
+text-align: center;
+font-weight: 500;
+padding: 2em 1em;
+}
+
+.shipping-content{
+    text-align: center;
+    font-weight: 500;
+    padding: 2em 1em;
+}
+
+.quality-content{
+    text-align: center;
+    font-weight: 500;
+    padding: 2em 1em;
+}
+
+.icon{
+    display: none;
+}
+
+.vid-content iframe{
+    width: 100%;
+}
+
+.instruments{
+   
+    padding-top: 3em;
+}
+.instruments li{
+    text-align: center;
+list-style: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boxcontent{
+    padding: 1em;
+    font-weight: 600;
+    text-align: center;
+    background-color: #ddd;
+}
+.tenor-trombone{
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 300px;
+}
+
+.bass-trombone{
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 300px;
+}
+.valve-trombone{
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 300px;
+}
+
+.instruments .btn{
+    justify-content: center;
+    margin-top: 3em;
+    width: 7em;   
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+  @media (min-width:550px){
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      header{
+         text-align: center;
+          display: flex;
+          padding-right: 7em;
+      }
+      .container{
+        margin: 0;
+        padding: 0;
+      }
+
+      .logo img{
+        max-width: 60%;
+    }
+
+    .icon{
+       display: flex;
+       justify-content: space-between;
+       padding-top: 4em;
+        position: absolute;
+        color: darkorange;
+    }
+    .grid-area{
+        grid-column: 1;
+        padding-left: 2em;
+    }
+    .premium-content{
+       
+        text-align: justify;
+        font-weight: 500;
+        padding: 2em 6em;
+        }
+        
+    .shipping-content{
+            text-align: justify;
+            font-weight: 500;
+            padding: 2em 6em;
+        }
+        
+    .quality-content{
+            text-align: justify;
+            font-weight: 500;
+            padding: 2em 6em;
+        }
+  }
+
+  @media (min-width: 650px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navi-section li, a{
+        margin: 0;
+        padding: 2em 2px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    .logo img{
+        margin: 0;
+        padding: 0;
+        max-width: 40%;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .instruments{
+        margin: 0;
+        padding: 0;
+        
+        padding-top: 3em;
+       display: flex;
+   
+    }
+    .boxcontent{
+        justify-content: space-between;
+       flex-direction: row;
+    }
+
+  }

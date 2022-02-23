@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    padding-top: 5em;
+}
+
+.header p{
+    padding-top: 1em;
+}
+
+.img-content img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img-content p{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.info-content h5{
+    text-align: center;
+    padding-top: 3em;
+}
+
+.info-content ul{
+    text-align: justify;
+    margin: auto;
+    padding-top: 3em;
+    width: 40em;
+    line-height: 1.6;
+}
+
+li{
+    margin: 16px 0;
+}
+
+.quotes{
+    padding-top: 3em;
+    margin: auto;
+    text-align: justify;
+    width: 41em;
+    line-height: 1.6;
+}
+
+.link{
+    padding-top: 3em;
+    margin: auto;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 5em;
+}
